@@ -89,6 +89,28 @@ header #right-search-form>#right-search-btn:focus {
     color: var(--mainColor);
 }
 
+header #header-bar:after
+{
+	position: relative;
+	left: -15px; /* 좌측 길이 조절용 */
+	width: 103%;
+	margin-top: 10px; /* 상단 마진 */
+	padding: 6px; /* 내부 간격 */
+	text-align: center;
+	background: #FFF5E4;
+	border-radius: 15px;
+	/* 일반내용 게시용 */
+	/* color: black;
+	border: 3px solid #FF9494;
+            */
+	/* 중요내용 게시용 (테두리 및 색상 강조 등) */
+	
+	color: black;
+	font-weight: bold;
+	border: 9px double #FF9494;
+	
+	content: "\2B50  " "6월 21일 방송 500일" "  \2B50";
+}
 
 
 /*************** 상단바 ***************/
